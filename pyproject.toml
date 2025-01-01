@@ -7,13 +7,14 @@ name = "emergent"
 version = "0.0.5"
 authors = [
   { name="Oluwatoni Akintola", email="oakintol@nd.edu" },
+  { name="Kekoa Wong", email="me@kekoawong.com" },
 ]
 dependencies = [
   "networkx==3.3",
   "numpy==2.0.0",
   "matplotlib==3.9.2"
 ]
-description = "Modelpy's Python module."
+description = "Emergent's Python module."
 readme = "README.md"
 requires-python = ">=3.10.7"
 classifiers = [
@@ -23,5 +24,5 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/toni-akintola/modelpy-module"
-Website = "https://modelpy.kekoawong.com/"
+Homepage = "https://github.com/delphictech/emergent"
+Website = "https://emergent.community/"
