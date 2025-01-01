@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling", "matplotlib", "networkx", "numpy"]
+build-backend = "hatchling.build"
+
+[project]
+name = "emergent"
+version = "0.0.5"
+authors = [
+  { name="Oluwatoni Akintola", email="oakintol@nd.edu" },
+]
+dependencies = [
+  "networkx==3.3",
+  "numpy==2.0.0",
+  "matplotlib==3.9.2"
+]
+description = "Modelpy's Python module."
+readme = "README.md"
+requires-python = ">=3.10.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/toni-akintola/modelpy-module"
+Website = "https://modelpy.kekoawong.com/"
